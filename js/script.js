@@ -6,7 +6,7 @@ const cont_list = document.getElementById('spesa');
 let i=0;
 
 // creo un ciclo while che si ripete tante volte quanti sono gli elementi nella lista
-while ( i<=lista.length){
+while ( i<lista.length){
      // creo li
      const li = document.createElement ('li');
      // inserisco li nel ul
